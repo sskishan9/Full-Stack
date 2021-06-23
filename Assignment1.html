@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edureka</title>
+        <link rel="icon" href="https://i.postimg.cc/76kStDSv/food-Wallpaper.png"/>
+        <style>
+            #top{
+    height:100px;
+    width:100%;
+    background-color: red;
+}
+#bottom{
+    margin-left: 113px;
+    width:100%;
+    height:900px;
+}
+#left{
+    width:35%;
+    height:500px;
+    position: absolute;
+    float:left;
+}
+#right{
+    margin-right:5px;
+    width:50%;
+    height:500px;
+    position: absolute;
+    float: right;
+    right:0px;
+}
+#rightone{
+    width:100%;
+    height:300px;
+}
+#righttwo{
+    width:100%;
+    height:300px;
+}
+#pagination{
+    width:100%;
+    height:100px;
+}
+#pagination {
+    display: inline-block;
+    }
+
+    #pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    }
+
+    #pagination a.active {
+    background-color: #8c96ab;
+    color: white;
+    border: 1px solid #8c96ab;
+    }
+    #rightonetop{
+        width:100%;
+        height:150px;
+        float:top;
+    }
+    #rightoneb{
+        width:100%;
+        height:150px;
+        float:bottom;
+        
+    }
+    #rightonebl{
+        height:75px;
+        width:30%;
+        float:left;
+        
+    }
+    #rightonebr{
+        height:75px;
+        width:70%;
+        float:right;
+        
+    }
+    #rightonetl{
+        float:left;
+        height:145px;
+        width:30%;
+    }
+    #rightonetr{
+        float:right;
+        width:70%;
+        height:120px;
+        
+    }
+    #rightonetl img{
+        height:130px;
+        width:130px;
+        border-radius: 34%;
+    }
+    #righttwotop{
+        width:100%;
+        height:150px;
+        float:top;
+    }
+    #righttwob{
+        width:100%;
+        height:150px;
+        float:bottom;
+        
+    }
+    #righttwobl{
+        height:75px;
+        width:30%;
+        float:left;
+        
+    }
+    #righttwobr{
+        height:75px;
+        width:70%;
+        float:right;
+        
+    }
+    #righttwotl{
+        float:left;
+        height:145px;
+        width:30%;
+    }
+    #righttwotr{
+        float:right;
+        width:70%;
+        height:120px;
+        
+    }
+    #righttwotl img{
+        height:130px;
+        width:130px;
+        border-radius: 34%;
+    }
+    #topleft{
+        
+        float:left;
+        height:60px;
+        width:5%;
+        background-color: white;
+        margin-top: 20px;
+        margin-left:100px;
+        border-radius: 50%;
+        
+    }
+    #topright{
+        margin-top: 20px;
+        float:right;
+        height:60px;
+        width:60%;
+        
+    }
+    #signup{
+        height:inherit;
+        width:40%;
+        float:right;
+       
+    }
+    #login{
+        float:left;
+        width:30%;
+        height:inherit;
+        margin-top: 20px;
+    }
+    #login a{
+        text-decoration: none;
+        font-size: 20px;
+        color:white;
+    }
+    #Account{
+        float:left;
+        width:70%;
+        height:inherit;
+        margin-top: 20px;
+        border-radius: 3px;
+        
+    }
+    #text{
+        margin-left: 40%;
+    }
+    #text h3{
+        color: red;
+        font-size: 20px;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            <div id="topleft">
+                <div id="text">
+                    <h3>e!</h3>
+                </div>
+            </div>
+            <div id="topright">
+                <div id="signup">
+                    <div id="login">
+                        <a href="#">Login</a>
+                    </div>
+                    <div id="Account">
+                        <button type="button">Create An Account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <h1>Breakfast Places in Mumbai</h1>
+            <div id="left">
+                <h3>Filters</h3>
+                <h4>Select Location</h4>
+                <select>
+                    <option>Select Location</option>
+                    <option>Raheja Tower</option>
+                    <option>Dhanraj Mahal</option>
+                    <option>The Oberoi Mumbai</option>
+                    <option>Waterfied Road</option>
+                    <option>The Taj Mahal Palace</option>
+                    <option>Sahar Airport Road</option>
+                    <option>Andheri Kurla Road</option>
+                    <option>Parvati Niwas</option>
+                </select>
+                <br>
+                <h4>Cuisine</h4>
+                <input type="checkbox" name="res1">
+                <label for="res1">North Indian</label>
+                <br>
+                <br>
+                <input type="checkbox" name="res2">
+                <label for="res2">South Indian</label>
+                <br>
+                <br>
+                <input type="checkbox" name="res3">
+                <label for="res3">Chinese</label>
+                <br>
+                <br>
+                <input type="checkbox" name="res4">
+                <label for="res4">Fast Food</label>
+                <br>
+                <br>
+                <input type="checkbox" name="res5">
+                <label for="res5">Street Food<label/>
+                <br>
+                <h4>Cost For Two</h4>
+                <input type="radio" name="CFT">
+                <label for="CFT">Less Than Rs 500/- </label>
+                <br>
+                <br>
+                <input type="radio" name="CFT">
+                <label for="CFT">Rs 500/- to Rs 1000/- </label>
+                <br>
+                <br>
+                <input type="radio" name="CFT">
+                <label for="CFT">Rs 1000/- to Rs 1500/- </label>
+                <br>
+                <br>
+                <input type="radio" name="CFT">
+                <label for="CFT">Rs 1500/- to Rs 2000/- </label>
+                <br>
+                <br>
+                <input type="radio" name="CFT">
+                <label for="CFT">Greater Than Rs 2000/-</label>
+                <br>
+                <h3>Sort</h3>
+                <input type="radio" name="sort">
+                <label for="sort">Price Low to High</label>
+                <br>
+                <br>
+                <input type="radio" name="sort">
+                <label for="sort">Price High to Low</label>
+            </div>
+            <div id="right">
+                <div id="rightone">
+                    <div id ="rightonetop">
+                        <div id="rightonetl">
+                            <img src="bf.png"/>
+                        </div>
+                        <div id="rightonetr">
+                            <h1>The Big Chill Cakery</h1>
+                            <h2>FORT</h2>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi</p>
+                        </div>
+                    </div>
+                    <div id="rightoneb">
+                        <hr>
+                        <div id="rightonebl">
+                            <p>Cusines</p>
+                            <p>Cost For Two</p>
+                        </div>
+                        <div id="rightonebr">
+                            <p>Bakery</p>
+                            <p>Rs 750/-</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="righttwo">
+                    <div id ="righttwotop">
+                        <div id="righttwotl">
+                            <img src="bf.png"/>
+                        </div>
+                        <div id="righttwotr">
+                            <h1>The Big Chill Cakery</h1>
+                            <h2>FORT</h2>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi</p>
+                        </div>
+                    </div>
+                    <div id="righttwob">
+                        <hr>
+                        <div id="righttwobl">
+                            <p>Cusines</p>
+                            <p>Cost For Two</p>
+                        </div>
+                        <div id="righttwobr">
+                            <p>Bakery</p>
+                            <p>Rs 750/-</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
